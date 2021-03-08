@@ -1,0 +1,5 @@
+* {box-sizing: border-box;}
+body {margin: 0px;}
+.link {color:dodgerblue;}
+.link:hover {color:darkorchid;}
+.link:visited {color: goldenrod;}
