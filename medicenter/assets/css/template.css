@@ -100,7 +100,7 @@ nav ul li a{
 .banner3{
     background-color: #2b4c99;
 }
-.banner_tittle{
+.banner_title{
     font-size: 21px;
 }
 .banner_description{
@@ -122,4 +122,29 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgb(144, 163, 192);
+}
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_text{
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_bar{
+    width: 50px;
+    height: 3px;
+    background-color: #39aae1;
+    margin-top: 10px;
 }
