@@ -21,14 +21,13 @@ header{
 }
 nav ul{
     list-style: none;
+    display: flex;
 }
 nav ul li, nav ul{
     margin: 0;
     padding: 0;
 }
-nav ul{
-    display: flex;
-}
+
 .menu {
     display: flex;
     align-items: center;
@@ -332,4 +331,77 @@ footer .footer_tweets_item h2{
 }
 .footer_tweets_item a:hover{
     border-bottom: 1px solid white;
+}
+.menu_mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-right: 40px;
+}
+.mm_line{
+    height: 3px;
+    background-color:#0079c7;
+}
+@media (max-width:868px){
+    .banner_headline h1 {
+        font-size: 45px;
+    }
+    .banner_headline h2{
+        font-size: 18px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+    #section_correcao{
+        padding-top: 100px;
+    }
+    #aside_correcao{
+        padding-top: 100px;
+    }
+
+    .footer .footer_menu{
+        flex-direction: column;
+    }
+    .footer_area {
+        flex-direction: column;
+    }
+    .footer_about_div {
+        margin-right: 200px;
+    }
+    footer .footer_menu {
+        flex-direction: column;
+    }
+    .geral_correcao{
+        flex-direction: column;
+    }
+
+    header{
+        height: auto;
+    }
+    .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    nav ul{
+        display: none;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        flex-direction: column;
+        background-color: white;
+    }
+}
+@media (max-width:654px){
+    .banner_headline h1{
+        font-size: 40px;
+    }
+    .banner_headline h2{
+        font-size: 15px;
+    }
+    
+
 }
