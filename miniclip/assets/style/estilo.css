@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#e6e6e6;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: white;
+}
+.container{
+    width: 1010px;
+    display: flex;
+}
+.topo_pagina{
+    display: flex;
+    align-items: center;
+}
+.busca form{
+    display: flex;
+    align-items: center;
+}
+
+.busca input{
+    width: 320px;
+    border-radius: 5%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 35px;
+    border-width: 1px;
+}
+.busca form button{
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.iniciar_sessao a h5{
+    margin-left: 45px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #003366;
+}
+.iniciar_sessao a{
+    text-decoration: none;
+}
+.topo_pagina .facebook{
+    margin-left: 20px;
+}
+.topo_pagina .engrenagem{
+    margin-left: 160px;
+}
+.topo_pagina .paises{
+    margin-left: 20px;
+    padding: 0;
+    margin-bottom: 7px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.menu_principal{
+    display: flex;
+}
+.menu_principal ul{
+    list-style: none;
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+.menu_principal ul,li{
+    margin: 0;
+    padding: 0;
+}
+.menu_principal ul a{
+    text-decoration: none;
+    color: #003366;
+}
+.menu_principal ul li {
+    border-right: 1px solid gray;
+    background: linear-gradient(to bottom, #ffffff 0%, #d0d0d0 100%);
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    height: 20px;
+}
+.menu_principal ul li img{
+    height: 20px;
+}
+.menu_principal li:hover{
+    background:#003366 ;
+    color: white;
+}
