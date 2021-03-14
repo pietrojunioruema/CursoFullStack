@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:800px;
+}
+
+.topo{
+    background: url(imagens/heavy.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-color: #a4574a;
+    height: 600px;
+    border-radius: 5%;
+}
+.topo:hover{
+    background: url(imagens/heavy2.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-color: #a4574a;
+    height: 600px;
+    border-radius: 5%;
+}
+.meio_1{
+    background: url(imagens/soldier.png);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    background-color: #a4574a;
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+}
+.meio_1:hover{
+    background: url(imagens/soldier2.png);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    background-color: #a4574a;
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+    
+}
+.meio_2{
+    background: url(imagens/sniper.png);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    background-color: #a4574a;
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+}
+.meio_2:hover{
+    background: url(imagens/sniper2.png);
+    background-position: center;
+    background-size: cover;
+    flex: 1;
+    background-color: #a4574a;
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+}
+.divide_dois{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallpaper2{
+    height: 1100px;
+}
+.background3{
+    height: 1100px;
+}
+.texto{
+    color: white;
+    font-size: 15px;
+    height: 500px;
+    width: 500px;
+}
