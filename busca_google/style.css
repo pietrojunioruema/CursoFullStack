@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.space_b{
+    justify-content: space-between;
+}
+.jst_cnt{
+    justify-content: center;
+}
+.jst_lft{
+    justify-content: left;
+}
+.comeco_pagina{
+    margin-left: 170px;
+}
+.dir_col{
+    flex-direction: column;
+}
+.flex_1{
+    flex: 1;
+}
+.alig_it_ct{
+    align-items: center;
+}
+.busca:hover{
+    box-shadow: 3px 3px 10px rgb(206, 201, 201), -3px -3px 10px rgb(206, 201, 201);
+}
