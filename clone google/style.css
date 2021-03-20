@@ -2,3 +2,18 @@ body{
     margin: 0;
     padding: 0;
 }
+.menu{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.item_menu{
+    margin: 12px;
+}
