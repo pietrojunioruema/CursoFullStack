@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url('background_caderno.jfif');
+    background-size: cover;
+    background-repeat: y;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1000px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width:800px;
+}
+.menu h1{
+    font-size:40px
+}
+logo_letra_1{
+    font-size: 80px;
+    color: #dd6c07;
+}
+logo_letra_2{
+    font-size: 40px;
+    color: #093f8d;
+}
+logo_letra_3{
+    font-size: 100px;
+    color: #053a8d;
+    font-family: 'Indie Flower', cursive;
+}
+.separacao_livros_imagem{
+    margin-top: 120px;
+    display: flex;
+}
+.livros{
+	width: 700px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
