@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('wallpaper.jfif');
+}
+.centralizar{
+    height:800px;
+}
+#butao_bonitao{
+    margin-top: 450px;
+    margin-left: 490px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:20px;
+    background-color: rgb(10, 88, 233);
+    font-family: aril;
+    font-size: 40px;
+    text-shadow: 2px 2px #000000;
+    color: white;
+    border:none;
+    box-shadow: 10px 5px 1px 1px #b8ffff;
+    outline: none;
+}
+#butao_bonitao:active{
+    box-shadow:4px 2px 1px #b8ffff;
+    transform: translate(6px,3px);
+}
+#butao_bonitao:hover{
+    background-color: rgb(30, 122, 207);
+}
