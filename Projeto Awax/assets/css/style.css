@@ -7,6 +7,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
+    overflow-x:hidden;
 }
 header{
     height: 100px;
@@ -96,7 +97,7 @@ header{
     text-transform: uppercase;
     margin-top: 20px;
 }
-.banner a{
+.button{
     display:block;
     background-color: #B28756;
     color:white;
@@ -107,4 +108,98 @@ header{
     padding: 10px 30px;
     font-weight: 600;
     margin-top: 30px;
+    display: inline-block;
+}
+.banner .sliders-pointers{
+    position:absolute;
+    margin-top: -100px;
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.banner .pointer.active{
+    background-color: #B28756;
+}
+.default{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default .section-title,
+.default .section-desc{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+.default .section-title{
+    font-size: 20px;
+}
+.default .section-desc{
+    font-size: 13px;
+    color: rgb(189, 182, 182);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.default .section-body{
+    max-width: 1140px;
+    margin:auto;
+}
+.default.light{
+    background-color: #F7F7F7;
+}
+.default.light .section-title,.default.light .section-body{
+    color: black;
+}
+.default.dark{
+    background-color: black;
+}
+.default.dark .section-title,
+.default.dark .section-body{
+    color: white;
+}
+
+
+
+
+
+
+
+/*
+
+CSS DE ÁREAS ESPECÍFICAS
+
+
+
+*/
+
+
+.section-aboutus{
+    display: flex;
+}
+.section-aboutus--left{
+    flex: 1;
+}
+.section-aboutus--left p{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.section-aboutus--right{
+    width: 520px;
+    text-align: center;
+}
+.section-aboutus--right img{
+    width: 100%;
+    box-shadow: 6px 10px 20px rgb(145, 143, 143);
 }
