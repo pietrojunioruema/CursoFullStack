@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 13px;
 }
 header{
     height: 100px;
     background-color: black;
+    color: white;
 }
 .header{
     max-width: 1140px;
@@ -31,25 +31,25 @@ header{
     display: flex;
     justify-content: flex-end;
 }
-.menu ul, .menu li {
+.menu nav ul, .menu nav ul li{
     list-style: none;
 }
-.menu ul{
+.menu nav ul{
     display: flex;
 }
-.menu ul li a{
+.menu nav ul li a{
     color: white;
     text-transform: uppercase;
-    font-weight: bold;
     text-decoration: none;
-    display: flex;
+    font-weight: 600;
     padding-left: 10px;
     padding-right: 10px;
     height: 100px;
+    display: flex;
     align-items: center;
     border-bottom: 5px solid black;
-    font-weight: 600;
 }
-.menu ul li a:hover, .menu .active a{
+.menu nav ul li a:hover,
+.menu nav ul .active a{
     border-bottom: 5px solid #B28756;
 }
