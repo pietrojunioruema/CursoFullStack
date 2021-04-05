@@ -174,11 +174,9 @@ header{
 
 
 
-.section-projects{
 
-}
 .section-projects--filters{
-
+    margin-bottom: 20px;
 }
 .section-projects--filters ul{
     display: flex;
@@ -210,16 +208,22 @@ header{
 
 
 
-
+.section-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .section-projects--photoarea{
     margin: 10px;
     width: 260px;
     height: 160px;
-
+}
+.section-projects--photoarea:hover .section-projects--photoinfo{
+    display: flex;
 }
 .section-projects--photos{
-
     max-width: 1140px;
     display: flex;
     flex-wrap: wrap;
@@ -234,5 +238,71 @@ header{
     height: inherit;
 }
 .section-projects--photoinfo{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: inherit;
+    height: inherit;
     display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.section-projects--photoinfo h5{
+    font-size: 21px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+.section-projects a{
+    background-color: #B28756; color: white;
+    text-transform: uppercase; font-size: 12px; text-decoration: none;
+    padding: 10px; padding-left: 30px; padding-right: 30px; font-weight: 600;
+    margin-top: 30px; border-radius: 20px;
+}
+
+
+.bg-team{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.section-team-area{
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-team .sliders{
+    width: 1000vw; height: 100%; 
+}
+.section-team .slide{
+    width: 280px; height: 100%; display: inline-block; 
+    background-color: white; margin-right: 20px; min-height: 300px;
+}
+.section-team .slidearea{
+    display: flex; align-items: center; justify-content: center;
+    color: white; height: 100%; flex-direction: column;
+}
+.section-team{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+.section-team-area .sliders-pointers{
+     height: 20px;  margin-top: -50px;
+    display: flex; justify-content: center;
+    margin-top: 50px; 
+}
+.section-team-area .pointer{
+    height: 15px; width: 15px; border: 1px solid #B28756;
+    border-radius: 50%; cursor: pointer; margin-left: 5px; 
+    margin-right: 5px;
+}
+.section-team-area .active{
+    background-color: #B28756;
 }
