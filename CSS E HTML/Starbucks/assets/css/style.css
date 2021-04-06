@@ -204,7 +204,6 @@ header .line{
     padding-top: 300px;
     padding-bottom: 250px;
     padding-left: 400px;
-    padding-right: 100px;
 }
 .area3--content h2{
     font-weight: bold;
@@ -305,4 +304,50 @@ footer{
     justify-content: center;
     align-items: center;
     color: white;
+}
+@media(max-width:1512px){
+    .container{
+        width: 900px;
+    }
+}
+@media(max-width:1484px){
+    .area3--content{
+        padding-left: 300px;
+    }
+}
+@media(max-width:1512px){
+    .container{
+        margin-left: 200px;
+    }
+}
+@media(max-width:1260px){
+    .area3--content{
+        padding-left: 200px;
+    }
+}
+@media(max-width:1068px){
+    .area3--content{
+        padding-left: 100px;
+    }
+}
+@media(max-width:1232px){
+    .banner{
+        padding: 250px;
+        padding-left: 0px;
+    }
+}
+@media(max-width:1118px){
+    .container{
+        width: 500px;
+    }
+}
+@media(max-width:1068px){
+
+}
+
+.area2--img1{
+    background-image: url(../images/f4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
 }
