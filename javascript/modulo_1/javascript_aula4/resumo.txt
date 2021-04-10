@@ -1,0 +1,5 @@
+Formas de OUTPUT (4)
+1 alterando um que ja existe getelementbyid
+criando um (pouco utilizado) document.write
+utilizando alert (pouco também)
+console.

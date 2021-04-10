@@ -1,0 +1,1 @@
+A máquina do javascript foi expandida, deverá ser feito o curso com o olhar de que o javascript irá funcionar em outros lugares além do navegador.

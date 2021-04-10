@@ -1,0 +1,2 @@
+Tipos de variáveis const, var e let. let é mais seguro pois só funciona neste escopo. o var é pra uso geral menos seguro, o const não altera seu valor.
+Em caso de objetos, o const não altera sua estrutura, mas pode alterar os valores. Por fim, não usar mais VAR. usar let ou const dependendo da situação.

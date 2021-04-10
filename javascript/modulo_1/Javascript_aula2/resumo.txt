@@ -1,0 +1,4 @@
+Formas de colocar o javascript no código:
+Com a tag script diretamente no HTML
+fazer um script.js separado e linkar ele com o código: script src="" /
+Ordem de carregamento da página, começando pelo head e terminando no fim do body.

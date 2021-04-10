@@ -1,0 +1,2 @@
+Mais sobre condições, agora com sinal de E e sinal de OU, além disso, toda vez que for um intervalo a condição deverá ter limite superior e inferior, logo, duas condições
+e uma soma (operador E).
