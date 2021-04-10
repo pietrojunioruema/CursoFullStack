@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.texto{
+    width: 200px;
+    height: 1800px;
+    overflow: auto;
+    background-color: #CCC;
+}
+.paratopo{
+    padding: 25px;
+    background-color: red;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    display: none;
+}
