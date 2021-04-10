@@ -1,0 +1,2 @@
+Selecionando pelo querySelector. É igual ao CSS. atenção, quando tiver mais de um elemento e utilizar o queryselector normal,
+ele vai retornar apenas o primeiro elemento. Se utilizar o queryselectorall, é necessario escolher a posição do elemento.

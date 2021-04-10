@@ -1,0 +1,2 @@
+DOM => DOCUMENT OBJECT MODEL ( aquilo que realmente você está olhando na tela)
+VIRTUAL DOM => uma cópia que só fica no código. (não está ligado diretamente ao que aparece na tela).

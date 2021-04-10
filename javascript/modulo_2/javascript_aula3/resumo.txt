@@ -1,0 +1,3 @@
+Quatro formas de selecionar elementos da tela. A primeira foi por ID (aula passada), a segunda é pela classe. Observação que pela
+classe ele retorna vários objetos que possuam essa classe (array). Outra forma de selecionar é pela TAG html. Também podemos
+selecionar pelo nome do input.
