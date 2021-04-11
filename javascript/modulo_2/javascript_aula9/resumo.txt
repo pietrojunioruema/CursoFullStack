@@ -1,0 +1,2 @@
+Aula sobre funções. Podemos executar elas no próprio script depois de criar ou no console. podemos executar de outras maneiras mas
+essas foram as apresentadas nessa aula.

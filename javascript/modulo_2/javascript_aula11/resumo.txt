@@ -1,0 +1,3 @@
+As tags HTML possuem atributos como class, src href etc... Para settar eles, precisamos utilizar o setAtributte("src", cachorro.jpg)
+por exemplo. Aprendi também a utilização do GetAttribute para recuperar um atributo criado por mim mesmo que eu settei com setA-
+tribbute.

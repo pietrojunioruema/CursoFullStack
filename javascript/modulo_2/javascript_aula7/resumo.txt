@@ -1,0 +1,1 @@
+tipos de dados string, número booleano, array, objeto, função etc... apresentando typeof no console.

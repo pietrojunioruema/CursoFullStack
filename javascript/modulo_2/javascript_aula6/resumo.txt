@@ -1,0 +1,3 @@
+Classlist.contains para verificar se um elemento possui uma classe com esse nome.
+
+contains, remove e add são importantes pro classList.
