@@ -1,0 +1,5 @@
+Eventos de teclado: onkeyup onkeydown
+é preferível utilizar onkeyup!
+além disso, eu posso passar um event como parâmetro utilizando a função onkeyup.
+observer o KEYCODE de cada tecla utilizando console.log(event).
+como eu descobri que o keyCode do enter é 13, é fácil saber quando ele pressiona enter ou não.

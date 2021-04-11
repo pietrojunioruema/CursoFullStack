@@ -1,0 +1,1 @@
+Fala um pouco sobre o onclick e apresenta o passar o mouse => onmouseover e onmouseout
