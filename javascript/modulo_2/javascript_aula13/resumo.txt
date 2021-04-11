@@ -1,0 +1,2 @@
+Posição do scroll, window se for da janela inteira ou seleciona o elemento e depois scrollTop pro height.
+da tela inteira é window.scrollY ou window.scrollX.

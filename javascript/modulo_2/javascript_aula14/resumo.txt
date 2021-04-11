@@ -1,0 +1,10 @@
+função setInterval para verificar de tempos em tempos a posição do scroll para decidir se vai aparecer ou nao o botão para subir
+tela.
+
+setInterval(funcao,1000) para 1 segundo.
+
+de forma profissional, adicionamos um escutador de evento na WINDOW.
+
+window.addEventListener('scroll',funcao)
+
+assim, toda vez que a posicao do scroll mudar o escutador de evento vai efetuar a funcao.

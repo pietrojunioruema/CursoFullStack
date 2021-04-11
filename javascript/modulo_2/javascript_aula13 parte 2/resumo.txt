@@ -1,0 +1,5 @@
+Movimentar o scroll para origem :  scrollTo(0,0);
+
+atenção, para criar o botão que leva ao topo da página utilizamos posição fixa e logo depois utilizamos os atributos TOP, RIGHT,
+BOTTOM, LEFT para decidir onde ficará o botão. depois disso, utilizamos z-index:999 para dizer que ele está por cima de todo conteúdo
+e cursor pointer para ele ser clicável.

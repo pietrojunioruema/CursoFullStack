@@ -1,0 +1,8 @@
+offsetHeight: height + padding  não diminui do scroll
+offsetWidth: width + padding  não diminui do scroll
+
+clientHeight: height + padding  diminui do scroll
+clientWidth: width + padding  diminui do scroll
+
+scrollHeight: height REAL + padding  diminui do scroll
+scrollWidth: width REAL + padding  diminui do scroll
