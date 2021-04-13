@@ -1,0 +1,9 @@
+QuerySelector só pega o primeiro... QuerySelectorall pega todos.
+
+então se for colocar:
+
+document.QuerySelectorall(".divs")
+
+é necessário colocar a posição do array depois para pegar 1 elemento só
+
+document.QuerySelectorall(".divs")[0].style.width por exemplo.
