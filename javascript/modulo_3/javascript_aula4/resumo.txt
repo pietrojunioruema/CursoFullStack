@@ -1,0 +1,4 @@
+Início sobre arrays. Da pra criar funções no array.
+let carros = ['ola','teste',function(){console.log("ola")}];
+executa assim: carros[2]();
+posso criar array dentro de arrays também.(matriz, que nem na linguagem C).

@@ -1,0 +1,2 @@
+Ele mostra objetos utilizando this, para utilizar o próprio atributo no próprio método. além disso, mostra que da pra por um objeto
+dentro de um array.

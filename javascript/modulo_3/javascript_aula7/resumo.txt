@@ -1,0 +1,3 @@
+transition: all ease .5s;
+importante
+nessa aula foi só fazer abrir e fechar de um menu simples.

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(142, 142, 196);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.texto{
+    padding-top: 200px;
+    padding-left: 200px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.vermelho{
+    color: red;
+    background-color: black;
+}
+.azul{
+    color: blue;
+    background-color: black;
+}
+.verde{
+    color: green;
+    background-color: black;
+}
+.botao{
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    outline:none;
+    cursor: pointer;
+}
+.separando{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    
+}

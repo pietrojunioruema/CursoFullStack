@@ -1,0 +1,2 @@
+Mudança de estilos. praticar adicionar e remover classes para mudar estilo e também falar sorbe mostrar e esconder elementos e da
+passagem do this no método onclick que é pouco utilizado também.
