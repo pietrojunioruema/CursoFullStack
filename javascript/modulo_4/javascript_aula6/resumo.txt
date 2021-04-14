@@ -1,0 +1,10 @@
+SPLICE() para deletar itens do array.
+primeiro valor é onde começa.
+segundo valor é quantos remove.
+
+CONCAT()
+passa o valor da lista que você quer unir.
+
+SORT()
+para ordenar o array.
+se eu quiser ordenar na ordem inversa eu uso reverse();

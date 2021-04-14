@@ -1,0 +1,10 @@
+.getFullYear();
+.getMonth(); mês começa do zero.
+.getDate(); pega o dia
+.getHours();
+.getMinutes();
+.getSeconds();
+
+PEGAR DATA É TUDO GET.
+
+.getTime(); pega o timestamp. (posso usar ele pra passar como parâmetro dentro do: new Date(timestamp);)

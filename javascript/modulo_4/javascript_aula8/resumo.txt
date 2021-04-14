@@ -1,0 +1,4 @@
+array.find() encontra o item e retorna.
+mão na roda para achar itens no array.
+
+array.findIndex() para achar posições.

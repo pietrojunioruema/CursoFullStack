@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #003f76;
+    color: white;
+}
+.acima_demo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.demo{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+button{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: #003f76;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #CCC;
+}

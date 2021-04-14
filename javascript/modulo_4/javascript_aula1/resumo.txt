@@ -1,0 +1,3 @@
+Tamanho da string com .length
+posição de onde começa o texto descrito com o indexOf().
+caso não tenha o texto no indexOf, ele retorna -1.

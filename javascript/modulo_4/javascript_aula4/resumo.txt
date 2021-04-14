@@ -1,0 +1,4 @@
+Primeiro método de números: toString().
+Segundo: toFixed("número de casas decimais que você quer após a vírgula").
+Terceiro: parseInt(string) -> vira int.  
+Quarto: parseFloat(string) -> vira float.

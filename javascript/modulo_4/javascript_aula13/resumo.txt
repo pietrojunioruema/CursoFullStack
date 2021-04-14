@@ -1,0 +1,2 @@
+criar timer, setInterval(funcao,1000)
+limpar timer clearInterval(timer);

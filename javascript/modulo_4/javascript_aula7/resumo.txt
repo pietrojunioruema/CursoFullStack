@@ -1,0 +1,18 @@
+array2 = array1.map(function(item){
+    return item*2;
+})
+
+Operações com todos os números do array tipo, dobrar todos os números utilizamos o MAP.
+
+Filter() usa de um jeito parecido com map, só que ele só retorna true ou false. (ou seja, só pega os itens do array se cumprir a
+condição)
+
+array2 = array1.filter(function(item){
+    return (item>50)? true : false;
+})     //só retorna os itens maiores que 50.
+
+Every() se todos os itens cumprirem, retorna verdadeiro caso contrario, retorna false.
+
+array2 = array1.every(function(item){
+    return (item>0 && item<50)? true : false;
+}) // vai retornar true se todos os itens forem maiores que 50. vai retornar false se todos os itens forem menores que 50.

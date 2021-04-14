@@ -1,0 +1,7 @@
+depois de descobrir se o texto existe com indexOf e a posicao inicial dele, pegar essa parte da string, utilize
+substr (posicao inicial, quantos caracteres);
+
+
+.indexOf("string que você quer saber onde começa");
+
+pegar parte SUBSTR => (INICIO, QUANTAS POSIÇÕES VOCÊ QUER.)

@@ -1,0 +1,11 @@
+aprendemos os gets todos, agora é hora do set.
+.setFullYear();
+Month() começa do zero
+Date() dia.
+
+hour minute seconds etc...
+
+quero pegar a data daqui a uma semana?
+
+let d = new Date();
+d.setDate(d.getDate()+7);

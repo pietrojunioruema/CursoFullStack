@@ -1,0 +1,18 @@
+String
+
+já aprendemos: .length .indexOf() .substr();
+
+o próximo é o .replace("procure algo","substitua por");
+
+depois temos o toUpperCase(); auto-explicativo; toLowerCase(), auto-explicativo.
+
+função trim(), remove todos os espaços da string.
+
+LISTA DE FUNÇÕES DE STRING:
+
+.length
+.indexOf("procure algo");
+.substr("começo","número de caracteres");
+.toUpperCase() / .toLowerCase()
+.trim() -> remove espaços
+.split(' ') -> esse também é importante, ele transforma a string em um array cortando onde tem espaço(nesse exemplo).

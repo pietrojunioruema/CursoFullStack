@@ -1,0 +1,9 @@
+Math.PI => retorna o número PI
+Math.round() => arredonda pra cima ou pra baixo
+Math.floor() => arredonda pra baixo
+Math.ceil() => arredonda pra cima
+Math.abs() => retorna o valor absoluto (positivo)
+Math.min() => retorna o menor número
+Math.max() => retorna o maior número
+Math.random() => gera um número randômico entre 0 e 1
+Math.floor(Math.random()*100) => gera número randômico entre 0 e 100
