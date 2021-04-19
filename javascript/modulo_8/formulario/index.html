@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tela">
+        <div class="esquerda">
+            <img src="images/financial_data.png">
+        </div>
+        <div class="direita">
+            <h1> Crie sua conta.</h1>
+            <form method="POST">
+                <label>Nome: <br/>
+                    <input type="text" name="nome">
+                </label>
+                <label>E-mail: <br/>
+                    <input type="text" name="email">
+                </label>
+                <label>Senha: <br/>
+                    <input type="password" name="senha">
+                </label>
+                    <input type="submit" name="cadastrar">
+            </form>
+            <div>
+                Já tem uma conta? <a href="">Faça o login.</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

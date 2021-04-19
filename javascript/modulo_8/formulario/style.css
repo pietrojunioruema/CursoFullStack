@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.tela{
+    display: flex;
+
+    height: 100vh;
+}
+.esquerda{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.esquerda img{
+    max-width: 500px;
+}
+.direita{
+    width: 400px;
+    background-color: #DDD;
+    padding: 50px;
+}
+.direita label{
+    display: block;
+    margin-bottom: 20px;
+}
+.direita input{
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    outline: 0;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzaria Club Penguin</title>
+</head>
+<body>
+    <header>
+        <div class="tela-principal">
+            <div class="menu">
+                <div class="menu--esquerda">
+                    <div class="menu--texto"><a href="">Pizzaria Club Penguin</a></div>
+                    <div class="menu--imagem">
+                        <a href=""><img src="imagens/logo--1.png"></a>
+                    </div>
+                </div>
+                <div class="menu--meio">
+                    <audio controls class="musica" style="display:none">
+                        <source src="musica.mp4">
+                    </audio> 
+                    <div class="botao--musica" onclick="tocarMusica()">Tocar música.</div>
+                    
+                </div>
+                <div class="menu--direita">
+                    
+                </div>
+            </div>
+            <div class="painel">
+                <div class="painel--porcima"></div>
+                <div class="painel--porcima--frase">Obrigado pela<br/> preferência!<img src="imagens/pizzaiolo--1.png" ></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mapa">
+            <div class="mapa--imagem">
+                <div class="mapa--porcima"></div>
+                <div class="mapa--porcima--frase"><img src="imagens/capitao.png" >Localizado no centro,<br/> ao lado do cinema da cidade.</div>
+            </div>
+        </div>
+        <div class="cardapio">
+            <span>Cardápio.</span>
+        <div class="pizza--area">
+            <div class="pizza--item" style="display:none;">
+                <div class="pizza--nome">
+                    <span>-</span>
+                </div>
+                <div class="pizza--imagem">
+                    <div class="circulo"><img src="imagens/pizza-bacon.png"></div>
+                </div>
+                <div class="pizza--descricao">
+                    <span>-</span>
+                </div>
+                <div class="adicionar--area">
+                    <div onclick="adicionar()" class="adicionar--butao">Adicionar</div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    </main>
+
+        <div class="compra">
+            <div class="pizza--area">
+                <div class="pizza--item" style="display:flex;">
+                    <div class="pizza--nome">
+                        <span>-</span>
+                    </div>
+                    <div class="pizza--imagem">
+                        <div class="circulo"><img src="imagens/pizza-bacon.png"></div>
+                    </div>
+                    <div class="pizza--descricao">
+                        <span>-</span>
+                    </div>
+                </div>
+            </div>
+            <div class="compra--fechar" onclick="fecharcompra()">Fechar compra.</div>  
+        </div>
+
+    <div class="para--topo" onclick="paraTopo()">Para o topo.</div>
+    <div class="carrinho" onclick="carrinho()"><span>Carrinho : 0</span></div>
+    <script src="info.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

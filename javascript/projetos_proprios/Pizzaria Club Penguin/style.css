@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.tela-principal{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    overflow-y: hidden;
+    height: 0px;
+    background: linear-gradient(#9a784c,#5a3731 );
+    transition: all ease 1000ms;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu--esquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu--texto{
+    font-family: 'Satisfy';
+    font-size: 50px;
+    padding-left: 20px;
+}
+.menu--texto a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu--imagem img{
+    width: 110px;
+}
+.menu--direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu--meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao--musica {
+    font-family: 'Satisfy';
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #afc668;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.para--topo{
+    display: none;
+    font-family: 'Satisfy';
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #afc668;
+    border-radius: 20px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    bottom: 10px;
+    right: 10px;
+}
+.botao--musica:hover{
+    background-color: #bcd379;
+}
+.carrinho{
+    font-family: 'Satisfy';
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #afc668;
+    border-radius: 20px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    top: 10px;
+    right: 10px;
+}
+.carrinho:hover{
+    background-color: #bcd379;
+}
+.painel{
+    flex: 1;
+    background-image: url('imagens/background--1.png');
+    background-size: cover;
+    background-position: bottom;
+}
+.painel--porcima{
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    transition: all ease 2000ms;
+}
+.painel--porcima--frase{
+    font-family: 'Satisfy';
+    transition: all ease 2000ms;
+    opacity: 0;
+    height: calc(100vh - 140px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    top: 140px;
+}
+.mapa{
+    height: 100vh;
+}
+.mapa--imagem{
+    height: inherit;
+    background-image: url('imagens/ilha.png');
+    background-size: cover;
+    background-position: center;
+}
+.mapa--porcima{
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    transition: all ease 2000ms;
+}
+.mapa--porcima--frase{
+    font-family: 'Satisfy';
+    transition: all ease 2000ms;
+    opacity: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+    top: 100vh;
+    position: absolute;
+}
+.pizza--area{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Satisfy';
+    font-size: 20px;
+    overflow-y: hidden;
+}
+.pizza--item{
+    margin: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.pizza--nome span{
+    font-size: 30px;
+}
+.pizza--descricao span{
+    font-size: 20px;
+}
+
+.adicionar--butao{
+    font-family: 'Alegreya', serif;
+    color: #32b7e0;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.adicionar--butao:hover{
+    background-color: #CCC;
+}
+.circulo img{
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cardapio{
+    min-height: 100vh;  
+    background: linear-gradient(#32b7e0,#0494c9);
+    color: white;
+    font-family: 'Satisfy';
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardapio span{
+    margin-top: 80px;
+}
+
+@keyframes animacao{
+    0% {top:50vh; right:50vw; width:0; height:0}
+    50% {width: 35vw;height: 35vh; top:32.5vh; right: 32.5vw;}
+    100% {top:15vh ; right:20vw; height:70vh; width:60vw}
+}
+@keyframes animacaocontrario{
+    0% {top:15vh ; right:20vw; height:70vh; width:60vw}
+    50% {width: 35vw;height: 35vh; top:32.5vh; right: 32.5vw;}
+    100% {top:50vh; right:50vw; width:0; height:0}
+}
+.compra{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background: linear-gradient(#9a784c,#5a3731 );
+    position: fixed;
+    border-radius: 20px;
+}
+.compra--fechar{
+    font-family: 'Alegreya', serif;
+    color: #32b7e0;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
