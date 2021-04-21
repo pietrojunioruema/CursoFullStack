@@ -1,36 +1,42 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
-.tela{
+.screen{
     display: flex;
-
     height: 100vh;
 }
-.esquerda{
+.leftside{
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.esquerda img{
+.leftside img{
     max-width: 500px;
+    height: auto;
 }
-.direita{
+.rightside{
     width: 400px;
-    background-color: #DDD;
+    background-color: #CCC;
     padding: 50px;
 }
-.direita label{
+.rightside label {
     display: block;
     margin-bottom: 20px;
 }
-.direita input{
+.rightside input{
     border: 1px solid #999;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 8px;
     font-size: 14px;
     width: 100%;
     outline: 0;
+}
+.error{
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    padding: 4px;
+    border-radius: 5px;
 }
