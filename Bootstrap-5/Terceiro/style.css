@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto';
+    height: 400;
+}
+header .navbar-toggler{
+    border: 2px solid black;
+}
+header .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+header .navbar-brand{
+    color: black;
+}
+header .navbar-brand:hover{
+    color: black;
+}
+header .nav-link{
+    color: black;
+}
+header .nav-link:hover{
+    color: white;
+}
+header .navbar{
+    background-color: rgb(243, 144, 144);
+    font-size: 20px;
+}
+header .nav-item{
+    border: 2px solid rgb(243, 144, 144);
+}
+header .nav-item:hover{
+    border: 2px solid white;
+    background-color:rgb(204, 121, 121);
+    border-radius: 10px;
+    color: white;
+}
+.primeira-parte{
+    background-color: rgb(243, 144, 144);
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+header .navbar-brand{
+    text-transform: uppercase;
+    font-family: 'Press Start 2P';
+    letter-spacing: 0px;
+    font-size: 13px;
+    color: white;
+}
+header .navbar-nav {
+    padding-left: 20px;
+}
+header .navbar-nav li{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+}
+.espaco{
+    height: 56px;
+}
+main .carousel-caption{
+    font-size: 20px;
+    top: 0;
+    bottom: auto;  
+}
+main .carousel-caption h5{
+    font-size: 30px;
+}
+main .carousel-indicators li{
+    height: auto;
+    width: 150px;
+}

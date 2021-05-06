@@ -1,0 +1,16 @@
+body{
+    padding-top: 100px;
+}
+#minha-navbar{
+    border-bottom: 1px solid gray;
+}
+#secao-1{
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+#secao-1 p{
+    color: blue;
+}
+#secao-1 h1{
+    font-size: 60px;
+}
